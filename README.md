@@ -1,5 +1,14 @@
 # 3D OpenGL Interactive Environment
 
+## Executable File Location
+
+After building the project, the executable file can be found at:
+
+- `x64/Release/Project_Template.exe` (Release version)
+- `x64/Debug/Project_Template.exe` (Debug version)
+
+You can run the `Project_Template.exe` directly from the above path without requiring Visual Studio to be installed.
+
 ## User Interaction Instructions
 
 To interact with this application:
@@ -32,7 +41,6 @@ The program is built using C++ and OpenGL, with a focus on modern shader-based r
 ### Rendering Pipeline
 
 The rendering pipeline follows these steps:
-
 1. Shadow map generation for dynamic shadows
 2. Scene rendering with standard lighting models
 3. Post-processing effects application
@@ -41,7 +49,6 @@ The rendering pipeline follows these steps:
 ### Shader Implementation
 
 Multiple shaders work together to create the final image:
-
 - **basic_uniform**: The main shader for rendering 3D objects with lighting
 - **normal_mapping**: Enhances surface detail using normal maps
 - **particle**: Manages the life cycle and appearance of particles
@@ -68,7 +75,6 @@ The foundation of this project began with inspiration from LearnOpenGL tutorials
 - The game mechanics and interaction were entirely original creations
 
 What makes this work unique is the combination of these elements into a cohesive real-time interactive environment, with special attention paid to:
-
 - The visual feedback loop between player actions and particle effects
 - The optimization of shader code for performance on consumer hardware
 - The integration of ImGui for runtime parameter adjustment
@@ -76,7 +82,6 @@ What makes this work unique is the combination of these elements into a cohesive
 ## Development Environment
 
 This project was developed and tested on:
-
 - **Visual Studio Version**: Visual Studio 2022 Community Edition (Version 17.7.5)
 - **Operating System**: Windows 11 
 - **GPU**: NVIDIA GeForce RTX 4060
@@ -90,7 +95,6 @@ This project was developed and tested on:
 ### Performance Considerations
 
 The application is optimized to run at 60+ FPS on mid-range hardware. The most performance-intensive aspects are:
-
 - Shadow mapping at high resolutions
 - Particle system with large particle counts
 - Post-processing effects when multiple are enabled simultaneously
@@ -98,7 +102,6 @@ The application is optimized to run at 60+ FPS on mid-range hardware. The most p
 ### Future Enhancements
 
 Planned future enhancements include:
-
 - Implementation of PBR workflow
 - Volumetric lighting effects
 - Physics-based interactions between player and environment
