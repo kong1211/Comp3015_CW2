@@ -110,5 +110,5 @@ Planned future enhancements include:
 
 ## Links
 
-- **GitHub Repository**: [https://github.com/yourusername/3d-opengl-environment](https://github.com/yourusername/3d-opengl-environment)
+- **GitHub Repository**: https://github.com/kong1211/Comp3015_CW2
 - **Demo Video**: https://youtu.be/PexTRFCGurg
