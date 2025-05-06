@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{d6ca4009-877c-4d89-9774-b4c1370f02f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="media">
+      <UniqueIdentifier>{81e137b1-4ea3-4abe-829a-6f64bc994cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper">
+      <UniqueIdentifier>{6efe3a76-edc0-4f6f-b45a-1869ab863c2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="helper\stb">
+      <UniqueIdentifier>{2eeab77b-5d84-4893-b9df-1b2ed789b189}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="helper\glutils.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\glslprogram.cpp">
+      <Filter>helper</Filter>
+    </ClCompile>
+    <ClCompile Include="scenebasic_uniform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="helper\scenerunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main_entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shader\basic_uniform.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shader\basic_uniform.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="include\imgui\examples\example_glfw_wgpu\web\index.html" />
+    <None Include="include\imgui\examples\libs\emscripten\shell_minimal.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="helper\scene.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\scenerunner.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb\stb_image.h">
+      <Filter>helper\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb\stb_image_write.h">
+      <Filter>helper\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\glutils.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\glslprogram.h">
+      <Filter>helper</Filter>
+    </ClInclude>
+    <ClInclude Include="scenebasic_uniform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="helper\stb_image_write.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image_resize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="media\textures\container_diffuse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\container_metallic.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\container_normal.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\container_roughness.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\container_specular.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\nx.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\ny.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\nz.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\px.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\py.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="media\textures\skybox\pz.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
